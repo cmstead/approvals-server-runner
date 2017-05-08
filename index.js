@@ -9,6 +9,7 @@ function runnerFactory() {
     var server = null;
 
     function start(configPath, callback) {
+        var cleanCallback = typeof callback === 'function' ? callback : function () { };
         var args = [configPath];
 
         stop();

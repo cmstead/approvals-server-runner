@@ -1,6 +1,6 @@
 {
   "name": "approvals-server-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Runner script for starting and stopping approvals server",
   "main": "index.js",
   "scripts": {
